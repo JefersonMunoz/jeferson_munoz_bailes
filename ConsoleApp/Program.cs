@@ -11,6 +11,7 @@ baile.Bailarines = new List<Bailarines>();
 baile.Bailarines.Add(new Bailarines() { Id = 1, Nombre = "Jose Miguel" });
 baile.Bailarines.Add(new Bailarines() { Id = 2, Nombre = "Amanda" });
 
+Console.WriteLine("Id del baile " + baile.Id);
 Console.WriteLine("Nombre del baile " + baile.Nombre);
 Console.WriteLine("Tipo del baile " + baile.Tipo.Nombre);
 
