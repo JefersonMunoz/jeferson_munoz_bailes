@@ -13,6 +13,7 @@ baile.Bailarines.Add(new Bailarines() { Id = 2, Nombre = "Amanda" });
 
 Console.WriteLine("Nombre del baile " + baile.Nombre);
 Console.WriteLine("Tipo del baile " + baile.Tipo.Nombre);
+Console.WriteLine("Status del baile " + baile.Activo);
 
 foreach (var elemento in baile.Bailarines)
 {
